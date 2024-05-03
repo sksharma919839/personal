@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sunil Sharma</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div id="header">
+        <div class="nav-bar">
+          <div class="nav-logo">
+            <img src="logo.png" height="70px" alt="" />
+            <div>Sunil Sharma</div>
+          </div>
+          <ul id="list">
+            <li><a href="#header" id="main">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Projacts</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <!-- <i class="fa-solid fa-circle-xmark"></i> -->
+          </ul>
+          <i class="fa-solid fa-bars" onclick="menuToggle()"></i>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="sect"></div>
+      <div class="firstsec">
+        <div>Hi My name is <span> Sunil</span></div>
+        <div>I am a Passionate</div>
+        <span id="element"></span><br />
+        <button class="main-btn">
+          <a href="SUNIL SHARMA.pdf" download="" target="_blank">Resume</a>
+        </button>
+        <button class="main-btn"><a href="#contact">Contact</a></button>
+      </div>
+      <div class="secondsec">
+        <img src="hero.png" height="400rem" alt="" />
+      </div>
+      <!-- About Section -->
+      <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="userr.jpeg" alt="" />
+            </div>
+            <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1>
+              <p>I am a <span id="element-2"></span></p>
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skils')">
+                  Skils
+                </p>
+                <p class="tab-links" onclick="opentab('education')">
+                  Education
+                </p>
+                <p class="tab-links" onclick="opentab('front-end')">Front-End</p>
+                <p class="tab-links" onclick="opentab('back-end')">Back-End</p>
+                <p class="tab-links" onclick="opentab('database')">Data Base</p>
+              </div>
+              <div class="tab-content active-tab" id="skils">
+                <ul>
+                  <li><span>Web Design</span><br />Designing Web Interface</li>
+                  <li><span>Web Development</span><br />Web App Devlopment</li>
+                </ul>
+              </div>
+              <div class="tab-content" id="education">
+                <ul>
+                  <li>
+                    <span>2024</span><br />Web Designing From Samyak Computer
+                    Classes
+                  </li>
+                  <li>
+                    <span>2024</span><br />Web Devlopment From Samyak Computer
+                    Classes
+                  </li>
+                  <li><span>2022</span><br />12th From RBSE Ajmer</li>
+                  <li><span>2020</span><br />10th From RBSE Ajmer</li>
+                </ul>
+              </div>
+              <div class="tab-content" id="front-end">
+                <ul>
+                  <li><span>2024</span><br />HTML</li>
+                  <li><span>2024</span><br />CSS</li>
+                  <li><span>2024</span><br />Java Script</li>
+                  <li><span>2024</span><br />JQUERY Librery</li>
+                  <li><span>2024</span><br />React JS</li>
+                </ul>
+              </div>
+              <div class="tab-content" id="back-end">
+                <ul>
+                  <li><span>2024</span><br />Python</li>
+                  <li><span>2024</span><br />Django</li>
+                </ul>
+              </div>
+              <div class="tab-content" id="database">
+                <ul>
+                  <li><span>2024</span><br />MongoDB</li>
+                  <li><span>2024</span><br />PostGreSQL</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Portfoliyo And Projeccts -->
+    <div id="portfolio">
+      <div class="portfolio">
+        <div class="container">
+          <h1 class="sub-title">My Work</hs1>
+          <div class="work-list">
+            <div class="work">
+              <img src="11.jpg" alt="" />
+              <div class="layer">
+                <h3>Restaurent Website</h3>
+                <p>
+                  The Website is for Restaurent Menu Bar And About the
+                  restaurent Section and conect with Google Form Review.
+                </p>
+                <a href="https://restarent-menubar.netlify.app/" target="_blank"
+                  ><i class="fa-solid fa-link"></i
+                ></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="work-2.png" alt="" />
+              <div class="layer">
+                <h3>Restaurent Website</h3>
+                <p>
+                  The website is use for the restaurent order and the recourd
+                  sum literls.
+                </p>
+                <a href=""><i class="fa-solid fa-link"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="work-3.png" alt="" />
+              <div class="layer">
+                <h3>Restaurent Website</h3>
+                <p>
+                  The website is use for the restaurent order and the recourd
+                  sum literls.
+                </p>
+                <a href=""><i class="fa-solid fa-link"></i></a>
+              </div>
+            </div>
+          </div>
+          <a href="" class="btn">See More</a>
+        </div>
+      </div>
+    </div>
+    <!-- Contact -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-brands fa-telegram"></i>sksharma919839@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>(+91) 9166985539</p>
+            <div class="social-icons">
+              <a
+                href="https://www.linkedin.com/in/sunil-sharma-313a31217/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://www.instagram.com/sk_sharma_75/" target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://wa.me/qr/SCCVDYWT7ZU6O1" target="_blank"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+            </div>
+            <a
+              href="SUNIL SHARMA.pdf"
+              target="_blank"
+              download=""
+              class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input
+                type="text"
+                name="Name"
+                id=""
+                required
+                placeholder="Enter Your Name Here"
+              />
+              <input
+                type="email"
+                name="Email"
+                id=""
+                required
+                placeholder="Enter Your Email Here"
+              />
+              <input
+                type="number"
+                name="Number"
+                id=""
+                required
+                placeholder="Enter Your Number Here"
+              />
+              <textarea
+                name="Message"
+                id=""
+                cols="30"
+                rows="6"
+                placeholder="Enter Your Massege Here"
+              ></textarea>
+              <button type="submit" class="btn btn2">Sumbit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright © Sunil Portfolio</p>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
